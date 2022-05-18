@@ -19,9 +19,9 @@ struct ContentView: View {
                 //.aspectRatio(contentMode: ContentMode.fill)
                 .ignoresSafeArea()
             
-            //BUAT KALO ADA GRADIENT NYA
-            LinearGradient(colors: [.orange.opacity(0.7), .blue.opacity(0.4)], startPoint: .topLeading, endPoint: .bottomTrailing)
-                .ignoresSafeArea()
+//            //BUAT KALO ADA GRADIENT NYA
+//            LinearGradient(colors: [.orange.opacity(0.7), .blue.opacity(0.4)], startPoint: .topLeading, endPoint: .bottomTrailing)
+//                .ignoresSafeArea()
             
             
             VStack{
@@ -29,7 +29,7 @@ struct ContentView: View {
                     Text("")
                 }
                 
-                Button("NEXT") {
+                Button ("NEXT") {
                     self.isActive = true
                     }
                 }
