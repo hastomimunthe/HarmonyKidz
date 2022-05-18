@@ -11,6 +11,7 @@
 		6606E3472834E5F00026AA3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6606E3462834E5F00026AA3B /* ContentView.swift */; };
 		6606E3492834E5F00026AA3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6606E3482834E5F00026AA3B /* Assets.xcassets */; };
 		6606E34C2834E5F00026AA3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6606E34B2834E5F00026AA3B /* Preview Assets.xcassets */; };
+		6606E3552834EA0B0026AA3B /* InstrumentPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6606E3542834EA0B0026AA3B /* InstrumentPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		6606E3462834E5F00026AA3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6606E3482834E5F00026AA3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6606E34B2834E5F00026AA3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6606E3542834EA0B0026AA3B /* InstrumentPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				6606E3442834E5F00026AA3B /* HarmonyKidzApp.swift */,
 				6606E3462834E5F00026AA3B /* ContentView.swift */,
+				6606E3542834EA0B0026AA3B /* InstrumentPage.swift */,
 				6606E3482834E5F00026AA3B /* Assets.xcassets */,
 				6606E34A2834E5F00026AA3B /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6606E3552834EA0B0026AA3B /* InstrumentPage.swift in Sources */,
 				6606E3472834E5F00026AA3B /* ContentView.swift in Sources */,
 				6606E3452834E5F00026AA3B /* HarmonyKidzApp.swift in Sources */,
 			);
